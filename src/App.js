@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Introduce from "./views/introduce";
+import ViewProject from "./views/project";
+import SkillSet from "./views/skillSet";
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Introduce></Introduce>
+      <SkillSet></SkillSet>
+      <ViewProject></ViewProject>
     </div>
   );
 }

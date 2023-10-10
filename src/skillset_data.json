@@ -1,0 +1,27 @@
+{
+    "ProgrammingLanguages": [
+        "C",
+        "Java",
+        "Python"
+    ],
+    "FrameworkLibrary": [
+        "Spring",
+        "React",
+        "Django"
+    ],
+    "Server": [
+        "Tomcat"
+    ],
+    "ToolingDevOps": [
+        "Github",
+        "Postman",
+        "VScode",
+        "eclipse"
+    ],
+    "Environment": [
+        "Window"
+    ],
+    "ETC": [
+        "Cloudflare"
+    ]
+}
